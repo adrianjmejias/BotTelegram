@@ -21,9 +21,10 @@ def FefiVocal(a):
 
 
 
-@bot.message_handler(commands=['fefify'])
+@bot.message_handler(commands=['dictator'])
 def route_fefify(message):
     print(message)
+    print(message.chat.username)
     # response = unirest.get('https://jsonplaceholder.typicode.com/todos/1',
     #     headers={
     #         "X-RapidAPI-Host": "copa-america.p.rapidapi.com",
